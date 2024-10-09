@@ -1,0 +1,14 @@
+{
+    "carousel": [
+        {
+            "id": 1,
+            "image": "Blackfriday.png"
+          },
+          {
+            "id": 2,
+            "image": "Blackfriday2.png"
+          }
+
+    ]
+
+}

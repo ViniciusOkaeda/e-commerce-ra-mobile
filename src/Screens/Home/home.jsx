@@ -1,19 +1,23 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View, FlatList,  Image, Button } from 'react-native';
+import { View,  Text, StyleSheet, FlatList,  Image, Button } from 'react-native';
+import ImagensCarousel from './Carousel';
+import ProdutosHome from './produtos'
 
 
- 
-const HomeScreen = ({navigation}) => {
+const HomeScreen = ({nnavigation}) => { 
 
- 
-    return(
-        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>Home Screen</Text>
-      </View>
+  return(
+        <View style={styles.container}>
+          <ImagensCarousel /> 
+          <ProdutosHome />
+        </View>
     )
 }
  
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  }
 
   });
 
